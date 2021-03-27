@@ -1,0 +1,7 @@
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\bin\Debug\VariablesandDataTypes.exe.config
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\bin\Debug\VariablesandDataTypes.exe
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\bin\Debug\VariablesandDataTypes.pdb
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\obj\Debug\VariablesandDataTypes.csprojAssemblyReference.cache
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\obj\Debug\VariablesandDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\obj\Debug\VariablesandDataTypes.exe
+C:\Users\stari\source\repos\VariablesandDataTypes\VariablesandDataTypes\obj\Debug\VariablesandDataTypes.pdb
