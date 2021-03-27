@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\bin\Debug\WelcomeScreen.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\bin\Debug\WelcomeScreen.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\bin\Debug\WelcomeScreen.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\obj\Debug\WelcomeScreen.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\obj\Debug\WelcomeScreen.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\obj\Debug\WelcomeScreen.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\WelcomeScreen\WelcomeScreen\obj\Debug\WelcomeScreen.pdb
