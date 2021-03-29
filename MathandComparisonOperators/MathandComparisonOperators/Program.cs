@@ -83,30 +83,29 @@ namespace MathandComparisonOperators
             //************************INCOME COMPARISON PROGRAM ASSIGNMENT**********************//
             Console.WriteLine("Anonymous Income Comparison Program"); //title
 
-            Console.WriteLine("Person1");       //Person 1
+            Console.WriteLine("Person1");   //Person 1:
+
+            Console.WriteLine("Hourly Rate");   //hourly rate
+            int hourlyRate = Convert.ToInt32(Console.ReadLine());   //casting string to int w/ user input
+
+            Console.WriteLine("Hours Worked Per Week");     //hours per week
+            int hoursWorked = Convert.ToInt32(Console.ReadLine()); //casting string to int w/ user input 
+
+            int total = (hourlyRate * hoursWorked *4) *12; //determining annual salary
+            Console.WriteLine("Annual Salary: $" + total); //displaying total
+
+            Console.WriteLine("Person2");       //Person 2:
+
             Console.WriteLine("Hourly Rate");
-            string hourlyRate = Console.ReadLine(); //user input
-            int salary = Convert.ToInt32(hourlyRate); //casting string to int
+            int hourlyRate2 = Convert.ToInt32(Console.ReadLine()); //casting string to int w/ user input
+      
+            Console.WriteLine("Hours Worked Per Week");     //hours per week
+            int hoursWorked2 = Convert.ToInt32(Console.ReadLine()); //casting string to int w/ user input
 
-            Console.WriteLine("Hours Worked Per Week");
-            string hoursWorked = Console.ReadLine(); //user input 
-            int hours = Convert.ToInt32(hoursWorked); //casting string to int
+            int total2 = (hourlyRate2 * hoursWorked2 *4) *12; //determining annual salary
+            Console.WriteLine("Annual Salary: $" + total2); //displaying total
 
-            int total = hours * salary; //determining total
-            Console.WriteLine("Weekly Salary: $" + total); //displaying total
-
-            Console.WriteLine("Person2");       //Person 2 
-            Console.WriteLine("Hourly Rate");
-            string hourlyRate2 = Console.ReadLine(); //user input 
-            int salary2 = Convert.ToInt32(hourlyRate2); //casting string to int
-
-            Console.WriteLine("Hours Worked Per Week");
-            string hoursWorked2 = Console.ReadLine();   //user input
-            int hours2 = Convert.ToInt32(hoursWorked2); //casting string to int
-
-            int total2 = hours2 * salary2; //determining total
-            Console.WriteLine("Weekly Salary: $" + total2); //displaying total
-
+            Console.WriteLine("Does Person 1 make more money than Person 2?");
             bool compareEmployees = total > total2; //comparing person1 salary to person2 w/ boolean
             Console.WriteLine(compareEmployees);
             Console.ReadLine();
