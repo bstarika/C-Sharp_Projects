@@ -96,7 +96,7 @@ namespace MathandComparisonOperators
 
             Console.WriteLine("Person2");       //Person 2:
 
-            Console.WriteLine("Hourly Rate");
+            Console.WriteLine("Hourly Rate");      //hourly rate
             int hourlyRate2 = Convert.ToInt32(Console.ReadLine()); //casting string to int w/ user input
       
             Console.WriteLine("Hours Worked Per Week");     //hours per week
