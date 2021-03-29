@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\bin\Debug\MathandComparisonOperators.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\bin\Debug\MathandComparisonOperators.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\bin\Debug\MathandComparisonOperators.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\obj\Debug\MathandComparisonOperators.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\obj\Debug\MathandComparisonOperators.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\obj\Debug\MathandComparisonOperators.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MathandComparisonOperators\MathandComparisonOperators\obj\Debug\MathandComparisonOperators.pdb
