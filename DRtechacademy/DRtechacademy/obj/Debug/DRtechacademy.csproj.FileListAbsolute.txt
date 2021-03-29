@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\bin\Debug\DRtechacademy.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\bin\Debug\DRtechacademy.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\bin\Debug\DRtechacademy.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\obj\Debug\DRtechacademy.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\obj\Debug\DRtechacademy.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\obj\Debug\DRtechacademy.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DRtechacademy\DRtechacademy\obj\Debug\DRtechacademy.pdb
