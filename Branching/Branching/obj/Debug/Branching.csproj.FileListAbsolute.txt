@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\bin\Debug\Branching.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\bin\Debug\Branching.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\bin\Debug\Branching.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\obj\Debug\Branching.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\obj\Debug\Branching.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\obj\Debug\Branching.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Branching\Branching\obj\Debug\Branching.pdb
