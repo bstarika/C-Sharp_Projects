@@ -37,7 +37,7 @@ namespace Branching //if,else statement example
             else
             {
                 Console.WriteLine("Your estimated total for shipping this package is: ");
-                Console.WriteLine("$" + (pkgHeight * pkgLength * pkgWeight) * pkgWeight / 100);
+                Console.WriteLine("$" + (pkgHeight * pkgLength * pkgWidth) * pkgWeight / 100);
                 Console.WriteLine("Thank you!");
             }
 
