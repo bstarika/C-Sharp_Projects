@@ -7,3 +7,4 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Assigned values to variables and casted strings to int and vice versa.
   <li>Created student daily report with user input.
   <li>Performed various mathematical operations and created program that determined and compared income data between two people.
+  <li>Created questionnaire using boolean.
