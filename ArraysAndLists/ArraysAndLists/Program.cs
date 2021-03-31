@@ -81,7 +81,7 @@ class Program
         int userIndex3 = 0;
         while (userIndex3 != 20)
         {
-            Console.WriteLine("I created a list of my favorite netflix shows. Pick a number between 0 and 5. Type 20 to end.");
+            Console.WriteLine("I created a list of my favorite netflix shows. \n Pick a number between 0 and 5. Type 20 to end.");
             List<string> stringList = new List<string>();
             stringList.Add("The Office"); //adding string to list
             stringList.Add("Game of Thrones");
