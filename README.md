@@ -10,4 +10,4 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Created questionnaire using boolean.
   <li>Coded a console-based application with various branches that determined a shipping quote for a package.
   <li>Demonstrated do/while loops.
-  <li>Learned various methods to create arrays and lists.
+  <li>Created one-dimensional lists and arrays that displayed index dependant upon user input.
