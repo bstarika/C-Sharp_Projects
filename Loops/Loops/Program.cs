@@ -10,51 +10,59 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            //************CREATE YOUR OWN DO WHILE LOOP****************
-            
-            Console.WriteLine("Guess my age");
-            int number = Convert.ToInt32(Console.ReadLine());
-
-            bool isGuessed = number == 27;
-
-            do
+            //************CREATE YOUR OWN WHILE LOOP****************
+            int i = 0;
+            while (i < 11)
             {
-                switch (number)
-                {
-                    case 30:
-                        Console.WriteLine("Close...REALLY close. Try again");
-                        Console.WriteLine("Guess my age");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break; //checks to see if conditions are met, discontinues switch statement
-                    case 50:
-                        Console.WriteLine("That is my mom. Try again");
-                        Console.WriteLine("Guess my age");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 22:
-                        Console.WriteLine("Nope. But that is my lucky number. Try Again");
-                        Console.WriteLine("Guess my age");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 18:
-                        Console.WriteLine("I wish. Try Again");
-                        Console.WriteLine("Guess my age");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                    case 27:
-                        Console.WriteLine("You guessed right! Good job!");
-                        isGuessed = true;
-                        break;
-                    default:
-                        Console.WriteLine("You are wrong");
-                        Console.WriteLine("Guess my age");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-
-                }
+                Console.WriteLine(i);
+                i++;
             }
 
-            while (!isGuessed);  //WHILE loop originally set to top of code before switch statements, however, with addition of do/while, it will be placed at bottom of code
+            //************CREATE YOUR OWN DO WHILE LOOP****************
+            
+            //Console.WriteLine("Guess my age");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //bool isGuessed = number == 27;
+
+            //do
+            //{
+            //    switch (number)
+            //    {
+            //        case 30:
+            //            Console.WriteLine("Close...REALLY close. Try again");
+            //            Console.WriteLine("Guess my age");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break; //checks to see if conditions are met, discontinues switch statement
+            //        case 50:
+            //            Console.WriteLine("That is my mom. Try again");
+            //            Console.WriteLine("Guess my age");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 22:
+            //            Console.WriteLine("Nope. But that is my lucky number. Try Again");
+            //            Console.WriteLine("Guess my age");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 18:
+            //            Console.WriteLine("I wish. Try Again");
+            //            Console.WriteLine("Guess my age");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 27:
+            //            Console.WriteLine("You guessed right! Good job!");
+            //            isGuessed = true;
+            //            break;
+            //        default:
+            //            Console.WriteLine("You are wrong");
+            //            Console.WriteLine("Guess my age");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+
+            //    }
+            //}
+
+            //while (!isGuessed);  //WHILE loop originally set to top of code before switch statements, however, with addition of do/while, it will be placed at bottom of code
 
             //*************GUESS A NUMBER DO WHILE LOOP****************
             //    Console.WriteLine("Guess a number?");
