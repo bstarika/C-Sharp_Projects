@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.pdb
