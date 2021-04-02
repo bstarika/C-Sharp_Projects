@@ -11,3 +11,4 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Coded a console-based application with various branches that determined a shipping quote for a package.
   <li>Demonstrated do/while loops.
   <li>Created one-dimensional lists and arrays that displayed index dependant upon user input.
+  <li>Used iterations and foreach loops on lists and arrays to display specific information.
