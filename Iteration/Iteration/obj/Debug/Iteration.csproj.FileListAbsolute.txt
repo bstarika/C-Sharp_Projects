@@ -5,3 +5,7 @@ C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration
 C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
 C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.exe
 C:\Users\stari\OneDrive\Documents\GitHub\Iteration\Iteration\obj\Debug\Iteration.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\Iteration\obj\Debug\Iteration.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\Iteration\obj\Debug\Iteration.pdb

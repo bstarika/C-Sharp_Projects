@@ -5,7 +5,7 @@ namespace Iteration
 {
     class Program
     {
-        static void Main(string[] args)
+        static object Main(string[] args)
         {
             ////iterate integer array
             //int[] testScores = { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
@@ -73,7 +73,7 @@ namespace Iteration
             //}
             //Console.ReadLine();
 
-            //iterate list int
+            ////iterate list int
             List<int> testScores = new List<int>() { 98, 99, 12, 74, 23, 99 };
             //create a blank list (unlike an array where you have to define length)
             List<int> passingScores = new List<int>();
@@ -90,6 +90,8 @@ namespace Iteration
             //whereas an array has length which will do same thing
             Console.WriteLine(passingScores.Count);
             Console.ReadLine();
+
+
         }
     }
 }

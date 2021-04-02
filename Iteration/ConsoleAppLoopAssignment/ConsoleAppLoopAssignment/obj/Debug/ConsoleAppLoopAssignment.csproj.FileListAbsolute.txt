@@ -1,0 +1,14 @@
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.csprojAssemblyReference.cache
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.csproj.CoreCompileInputs.cache
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.exe.config
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.exe
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.pdb
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.exe
+C:\Users\stari\source\repos\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\obj\Debug\ConsoleAppLoopAssignment.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Iteration\ConsoleAppLoopAssignment\ConsoleAppLoopAssignment\bin\Debug\ConsoleAppLoopAssignment.pdb
