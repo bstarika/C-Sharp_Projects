@@ -35,7 +35,13 @@ namespace ConsoleAppLoopAssignment
             //This loop continues until i<50
             //The value of i will never be above 50
             //The condition i<50 will always be true 
-            //for (int i = 0; i < 50; i--)
+            //for (int i = 0; i <= 0; i--)
+            //{
+            //    Console.WriteLine("value : {0}", i);
+            //}
+            //Console.ReadLine();
+
+            //for (int i = 0; i >= 0; i++)
             //{
             //    Console.WriteLine("value : {0}", i);
             //}
@@ -63,30 +69,73 @@ namespace ConsoleAppLoopAssignment
             //}
             //Console.ReadLine();
 
-            //***************CONSOLE APP ASSIGNMENT : PART 4 *******************************
-            //iterate list string
-           Console.WriteLine("Guess a letter that is in my name");
+            //***************CONSOLE APP ASSIGNMENT : PART 4 * ******************************
+            //Console.WriteLine("Guess a letter that is in my name");
             //list of strings
-           List<string> lettersName = new List<string>() { "b", "r", "e", "a", "n" };
+            //List<string> lettersName = new List<string>() { "b", "r", "e", "a", "n" };
             //iteration of list
-           foreach (string letter in lettersName)
-                {
-                string userGuess = Console.ReadLine();
-                
-                if(userGuess == letter)
-                {
-                    Console.WriteLine("You guessed correct. " + userGuess + " is in my name.");
-                    break;
-                }
+            //bool status = false;
+            //string userGuess;
+            //while (status != true)
+            //{
+            //    userGuess = Console.ReadLine();
 
-                else
-                {
-                    Console.WriteLine("You guessed incorrect. " + userGuess + " is not in my name. Try again.");
-                }
+            //    if (lettersName.Contains(userGuess))
+            //    {
+            //        Console.WriteLine("Correct. That letter is in my name.");
+            //        status = true;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You guessed incorrectly. Please try again.");
+            //    }
+            //}
+            //Console.ReadLine();
 
-                }
+
 
             //***************CONSOLE APP ASSIGNMENT : PART 5 *******************************
+            //Console.WriteLine("Guess a letter that is in my name");
+            ////list of strings
+            //List<string> lettersName = new List<string>() { "b", "r", "e", "a", "n", "n", "a" };
+            ////iteration of list
+            //bool status = false;
+            //string userGuess;
+            //while (status != true)
+            //{
+            //    userGuess = Console.ReadLine();
+
+            //    if (lettersName.Contains(userGuess))
+            //    {
+            //        Console.WriteLine("Correct. That letter is in my name. The index of that letter is " + lettersName.IndexOf(userGuess) +".");
+            //        status = true;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You guessed incorrectly. Please try again.");
+            //    }
+            //}
+            //Console.ReadLine();
+
+            //***************CONSOLE APP ASSIGNMENT : PART 6 *******************************
+            List<string> animalName = new List<string>() { "cat", "dog", "bird", "snake", "dog" };
+            List<string> nonDupe = new List<string>();
+         
+            foreach(string animal in animalName)
+            {
+
+                if (nonDupe.Contains(animal))
+                {
+                    Console.WriteLine(animal + " has already appeared in the list.");
+                    break;
+                }
+                //adds animal to nonDupe list 
+                nonDupe.Add(animal);
+                Console.WriteLine(animal);
+
+            }
+            
+            Console.ReadLine();
         }
     }
 }
