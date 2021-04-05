@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
