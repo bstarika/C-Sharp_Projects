@@ -12,4 +12,4 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Demonstrated do/while, foreach, and iterations on both lists and arrays, each with a different function.
   <li>Built exceptions that checked for errors in code.
   <li>Created entire deck of cards with constructors, loops, lists, and list functions that randomized deck.
-  <li>Called upon methods with both strings and integers as parameters in a class seperate from the main program.
+  <li>Created an object in main program that called upon a class with methods containing both strings and integers as parameters.
