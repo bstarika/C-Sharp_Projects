@@ -1,0 +1,6 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\obj\Debug\CallingMethods.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\bin\Debug\CallingMethods.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\bin\Debug\CallingMethods.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\bin\Debug\CallingMethods.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\obj\Debug\CallingMethods.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CallingMethods\CallingMethods\obj\Debug\CallingMethods.pdb
