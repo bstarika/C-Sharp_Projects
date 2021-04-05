@@ -9,22 +9,22 @@ namespace CallingMethods
     public class mathoperation  //class mathoperation
     {
 
-        public void Add(int num)   //method Add
+        public int Add(int num)   //method Add
         {
             int result = num + num;
-            Console.WriteLine(result);
+            return(result);
         }
 
-        public void Subtract(int num)   //method Subtract
+        public int Subtract(int num)   //method Subtract
         {
             int result = num - num;
-            Console.WriteLine(result);
+            return(result);
         }
 
-        public void Multiply(int num)   //method Multiply
+        public int Multiply(int num)   //method Multiply
         {
             int result = num * num;
-            Console.WriteLine(result);
+            return(result);
         }
     }
 }

@@ -14,14 +14,15 @@ namespace CallingMethods
             Console.WriteLine("Please enter a number");
             int userInput = Convert.ToInt32(Console.ReadLine()); //user input
 
-            m.Add(userInput); //calling method Add
-            m.Subtract(userInput); //calling method Subtract
-            m.Multiply(userInput); //caling method Multiply
+            int answer1 = m.Add(userInput); //calling method Add
+            int answer2 = m.Subtract(userInput); //calling method Subtract
+            int answer3 = m.Multiply(userInput); //caling method Multiply
+
+            Console.WriteLine(answer1);
+            Console.WriteLine(answer2);
+            Console.WriteLine(answer3);
 
             Console.ReadLine();
         }
     }
 }
-
-
-
