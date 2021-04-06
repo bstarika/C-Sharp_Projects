@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\bin\Debug\MethodsandObjects.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\bin\Debug\MethodsandObjects.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\bin\Debug\MethodsandObjects.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\obj\Debug\MethodsandObjects.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\obj\Debug\MethodsandObjects.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\obj\Debug\MethodsandObjects.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\MethodsandObjects\MethodsandObjects\obj\Debug\MethodsandObjects.pdb
