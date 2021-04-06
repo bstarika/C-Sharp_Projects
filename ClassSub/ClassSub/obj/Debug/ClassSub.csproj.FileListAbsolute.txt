@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\bin\Debug\ClassSub.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\bin\Debug\ClassSub.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\bin\Debug\ClassSub.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\obj\Debug\ClassSub.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\obj\Debug\ClassSub.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\obj\Debug\ClassSub.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\ClassSub\ClassSub\obj\Debug\ClassSub.pdb

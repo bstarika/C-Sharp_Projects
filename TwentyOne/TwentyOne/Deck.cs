@@ -31,5 +31,23 @@ namespace TwentyOne
 
         }
         public List<Card> Cards { get; set; }    //property
+
+        public void Shuffle(int times = 1)        //Deck is type of data returning, Shuffle is name of function, takes parameter of type Deck
+        {                                                           //to create an optional paramter, add a default value (int times = 1)
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>();             //temporary list to store shuffled items 
+                Random random = new Random();
+
+                while (Cards.Count > 0)                        //while loop to shuffle deck
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+            }
+           
+        }
     }
 }
