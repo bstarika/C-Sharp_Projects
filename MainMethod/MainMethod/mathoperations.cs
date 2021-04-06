@@ -9,11 +9,21 @@ namespace MainMethod
     class mathoperations //created class
     {
 
-        public int Add(int num1, int num2 = 10) //two parameters, one optional
+        public void MultiplyCubed(int num, int num2) //void method does not require a return statement, takes in two integers as parameters 
         {
-            int result = num1 + num2;
-            return result;                      //returns integer
+            int result = num * num * num;           //first parameter will be cubed
+
+            Console.WriteLine(num2);                //second parameter will be displayed
         }
+        
+        
+        
+        
+        //public int Add(int num1, int num2 = 10) //two parameters, one optional
+        //{
+        //    int result = num1 + num2;
+        //    return result;                      //returns integer
+        //}
         
         //public int mathOp(int num)                   //method mathOp()
         //{   
