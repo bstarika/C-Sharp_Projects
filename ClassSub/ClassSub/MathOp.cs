@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassSub
 {
-    static class MathOp     //class static
+    class MathOp     //class static
     {
         public void Divide(int num)     //void method that outputs integer, method will divide the data passed to it by 2
         {
