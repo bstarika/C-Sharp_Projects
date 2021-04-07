@@ -14,7 +14,7 @@ namespace TwentyOne
             game.Players = new List<string>() { "Breanna", "Stayce", "Brandon" }; //inherited properties from game class 
             game.ListPlayers(); //called superclass method() (when you're calling a method from a class you are inheriting from)
             game.Play(); //calling play method from twentyonegame class
-
+            Console.ReadLine();
             
             /*Card card = new Card() { Face = "King", Suit = "Spades" }*/ //object initialization
 
