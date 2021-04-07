@@ -47,6 +47,7 @@
     <Compile Include="dealer.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="game.cs" />
+    <Compile Include="IWalkAway.cs" />
     <Compile Include="player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

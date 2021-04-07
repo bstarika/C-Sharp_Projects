@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractClass
 {
-    class Employee : Person //class called Employee will inherit the Person class
+    class Employee : Person, IQuittable //class called Employee will inherit the Person class
     {
         string firstName;
         string lastName;
@@ -16,6 +16,9 @@ namespace AbstractClass
            // Console.WriteLine("Name: " + firstName + " " + lastName );
             base.SayName();
         }
-
+        public void Quit() 
+        {
+            Console.WriteLine("Student has quit the course"); //inherit interface IQuittable and implement the Quit() method
+        }
     }
 }

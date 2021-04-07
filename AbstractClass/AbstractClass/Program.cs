@@ -15,6 +15,10 @@ namespace AbstractClass
             e.lastName = "Student"; //and lastName “Student”.
             e.SayName(); //call the SayName() method on the object
             Console.ReadLine();
+
+            IQuittable q = new Employee(); //use polymorphism to create an object of type IQuittable
+            q.Quit();                      //call the Quit() method on it.
+
         }
     }
 }
