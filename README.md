@@ -13,4 +13,4 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Built exceptions that checked for errors in code.
   <li>Created entire deck of cards with constructors, loops, lists, and list functions that randomized deck.
   <li>Created an object in main program that called upon a class with methods containing both strings and integers as parameters.
-  <li>Demonstrated virtual/override/overload methods, polymorphism when creating an object, making a class static/abstract/public, creating an interface and optional        parameters.
+  <li>Demonstrated virtual/override/overload methods, polymorphism when creating an object, making classes static/public/abstract, creating an interface and optional        parameters.
