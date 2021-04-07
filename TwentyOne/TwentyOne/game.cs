@@ -8,7 +8,7 @@ namespace TwentyOne
 {
     public abstract class game                    //by adding abtract, you locked your code down and can no longer can instantiate it
     {                                             //inheritance
-        public List<string> Players { get; set; } //type in propr tab tab
+        public List<string> Players { get; set; } //type in prop tab tab
         public string Name { get; set; }
         public string Dealer { get; set; }
 
