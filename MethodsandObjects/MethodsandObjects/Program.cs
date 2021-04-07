@@ -21,7 +21,7 @@ namespace MethodsandObjects
             Employee e = new Employee();
             Employee b = new Employee();
 
-            int eId = 34;
+            int eId = 34; //use the newly overloaded == operator to compare two Employee objects by their Id
             int eId2 = 45;
 
             bool same = false;
@@ -29,18 +29,11 @@ namespace MethodsandObjects
             e.Id = eId;
             b.Id = eId2;
 
-            if(e.Id == b.Id)
-            {
-                same = true;
-
-            }
-
-            else
-            {
-            }
-
+            same = e == b;
             Console.WriteLine(same);
             Console.ReadLine();
+
+            
         }
     }
 }

@@ -7,10 +7,33 @@ using System.Threading.Tasks;
 namespace MethodsandObjects
 {
     class Employee : Person //inherit from Person class
-    {
-     
-            public int Id { get; set; } //property called Id and have it be of data type int
+    {  
+       public int Id { get; set; } //property called Id and have it be of data type int
+
+       public static bool operator==(Employee employee1, Employee employee2)  //comparing two objects w/ == operator 
+        {
+            bool same = false; //default
+
+            if(employee1.Id == employee2.Id) //overloading operator compares Employee objects by their ID properties
+            {
+                same = true; //return true if same
+            }
+
+            return same;
         }
+
+        public static bool operator !=(Employee employee1, Employee employee2) //comparing two objects w/ != operator 
+        {
+            bool same = true; //default
+
+            if (employee1.Id != employee2.Id) //overloading operator compares Employee objects by their ID properties
+            {
+                same = false; 
+            }
+
+            return same;
+        }
+    }
     
 
 
