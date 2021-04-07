@@ -8,6 +8,10 @@ namespace MethodsandObjects
 {
     class Employee : Person //inherit from Person class
     {
-        int Id; //property called Id and have it be of data type int
-    }
+     
+            public int Id { get; set; } //property called Id and have it be of data type int
+        }
+    
+
+
 }

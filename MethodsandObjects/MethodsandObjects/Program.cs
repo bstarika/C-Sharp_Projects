@@ -10,11 +10,36 @@ namespace MethodsandObjects
     {
         static void Main(string[] args)
         {
-            Employee n = new Employee(); // instantiate and initialize an Employee object with a first name of “Sample” and a last name of “Student”
-            n.FirstName = "Sample";
-            n.LastName = "Student";
+            //Employee n = new Employee(); // instantiate and initialize an Employee object with a first name of “Sample” and a last name of “Student”
+            //n.FirstName = "Sample";
+            //n.LastName = "Student";
 
-            n.SayName(); //Call the superclass method SayName() on the Employee object
+            //n.SayName(); //Call the superclass method SayName() on the Employee object
+            //Console.ReadLine();
+
+            //Overload the “==” operator so it checks if two Employee objects are equal by comparing their Id property
+            Employee e = new Employee();
+            Employee b = new Employee();
+
+            int eId = 34;
+            int eId2 = 45;
+
+            bool same = false;
+
+            e.Id = eId;
+            b.Id = eId2;
+
+            if(e.Id == b.Id)
+            {
+                same = true;
+
+            }
+
+            else
+            {
+            }
+
+            Console.WriteLine(same);
             Console.ReadLine();
         }
     }
