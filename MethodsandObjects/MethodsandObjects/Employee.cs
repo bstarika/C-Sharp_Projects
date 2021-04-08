@@ -7,12 +7,20 @@ using System.Threading.Tasks;
 namespace MethodsandObjects
 {
     class Employee : Person //inherit from Person class
-    {  
-       public int Id { get; set; } //property called Id and have it be of data type int
+    {
+        public int Id { get; set; } //property called Id and have it be of data type int
 
-       public static bool operator==(Employee employee1, Employee employee2)  //comparing two objects w/ == operator 
+        public Employee (string firstName, string lastName, int Id) //constructor for Employee
         {
-            return employee1.Id == employee2.Id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Id = Id;
+        }
+
+
+       //public static bool operator==(Employee employee1, Employee employee2)  //comparing two objects w/ == operator 
+        //{
+           // return employee1.Id == employee2.Id;
 
             //bool same = false; //default
 
@@ -22,12 +30,12 @@ namespace MethodsandObjects
             //}
 
             //return same;
-        }
+       //}
 
-        public static bool operator !=(Employee employee1, Employee employee2) //comparing two objects w/ != operator 
-        {
+        //public static bool operator !=(Employee employee1, Employee employee2) //comparing two objects w/ != operator 
+        //{
 
-            return employee1.Id == employee2.Id;
+           //return employee1.Id == employee2.Id;
 
             //bool same = true; //default
 
@@ -37,7 +45,7 @@ namespace MethodsandObjects
             //}
 
             //return same;
-        }
+       //}
     }
     
 

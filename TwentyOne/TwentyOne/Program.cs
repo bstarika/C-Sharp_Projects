@@ -10,6 +10,9 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+
+            //int count = Deck.Cards.Count(x => x.Face == Face.Ace); //example of LAMBDA expression, where x will count how many cards with face Ace
+            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList(); //example of LAMBDA expression that will filter through cards with face of king and add to new list
             //TwentyOneGame game = new TwentyOneGame(); //inheriting from TwentyOneGame (won't run play until it is defined)
             //game.Players = new List<player>()/* { "Breanna", "Stayce", "Brandon" };*/ //inherited properties from game class 
             //game.ListPlayers(); //called superclass method() (when you're calling a method from a class you are inheriting from)
