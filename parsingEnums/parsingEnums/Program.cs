@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace parsingEnums
+namespace ParsingEnums
 {
     class Program
     {
-        public string Days { get; set; }
         public enum Days                       //use of enum, don't have to put "" around set of named values
         {
             Monday,
@@ -19,7 +18,27 @@ namespace parsingEnums
             Saturday,
             Sunday
         }
-    Console.WriteLine("Enter in the day of the week");
-    string Day = Console.ReadLine();
+        
+        
+        static void Main(string[] args)
+        {
+
+            try
+            {
+
+                Console.WriteLine("Enter in the day of the week in the form of a number 0 - 6");
+                string userInput = Console.ReadLine();
+                Days day = (Days)Enum.Parse(typeof(Days), userInput);
+                //Days day = (Days)Convert.ToInt32(userInput);
+
+                Console.WriteLine(day);
+                    Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Please enter an actual day of the week.");
+            }
+        }
+        
     }
 }

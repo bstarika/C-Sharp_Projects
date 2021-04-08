@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D38A325-C9B9-4F2A-A89D-CFF147E2EE01}</ProjectGuid>
+    <ProjectGuid>{833158B6-3560-45B2-91ED-20FDC507E6CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>parsingEnums</RootNamespace>
-    <AssemblyName>parsingEnums</AssemblyName>
+    <RootNamespace>ParsingEnums</RootNamespace>
+    <AssemblyName>ParsingEnums</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
