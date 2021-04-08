@@ -20,30 +20,38 @@ namespace TwentyOne
             //player.Name = "Breanna";
             //game += player; //same thing as writing game = game + player;
             //game -+ player;
-            
+
             /*Card card = new Card() { Face = "King", Suit = "Spades" }*/ //object initialization
 
 
-           
+
 
             Deck deck = new Deck();
             deck.Shuffle();                                  //optional parameter, can change to deck=Shuffle(deck, 3); or any amount of times you want deck shuffled   
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
-            Console.ReadLine();
+            //    foreach (Card card in deck.Cards)
+            //    {
+            //        Console.WriteLine(card.Face + " of " + card.Suit);
+            //    }
+            //    Console.WriteLine(deck.Cards.Count);
+            //    Console.ReadLine();
+            //}
+
+            //Card card = new Card();     //utilizing enum in Card class
+            //card.Suit = Suit.Clubs;
+            //int underlyingValue = Convert.ToInt32(Suit.Diamonds); //casting string to int [0,1,2,3,4] unless assigned in Card class
+            //Console.WriteLine(underlyingValue);
+            //Console.ReadLine();
+
+
+            //public static Deck Shuffle(Deck deck, int times) //method to shuffle deck x amount of times
+            //{
+            //    for (int i = 0; i < times; i++)
+            //    {
+            //        deck = Shuffle(deck);
+            //    }
+            //    return deck;
+            //}
         }
-      
-        //public static Deck Shuffle(Deck deck, int times) //method to shuffle deck x amount of times
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
     }
 }

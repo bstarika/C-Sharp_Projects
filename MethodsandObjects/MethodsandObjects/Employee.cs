@@ -12,26 +12,31 @@ namespace MethodsandObjects
 
        public static bool operator==(Employee employee1, Employee employee2)  //comparing two objects w/ == operator 
         {
-            bool same = false; //default
+            return employee1.Id == employee2.Id;
 
-            if(employee1.Id == employee2.Id) //overloading operator compares Employee objects by their ID properties
-            {
-                same = true; //return true if same
-            }
+            //bool same = false; //default
 
-            return same;
+            //if(employee1.Id == employee2.Id) //overloading operator compares Employee objects by their ID properties
+            //{
+            //    same = true; //return true if same
+            //}
+
+            //return same;
         }
 
         public static bool operator !=(Employee employee1, Employee employee2) //comparing two objects w/ != operator 
         {
-            bool same = true; //default
 
-            if (employee1.Id != employee2.Id) //overloading operator compares Employee objects by their ID properties
-            {
-                same = false; 
-            }
+            return employee1.Id == employee2.Id;
 
-            return same;
+            //bool same = true; //default
+
+            //if (employee1.Id != employee2.Id) //overloading operator compares Employee objects by their ID properties
+            //{
+            //    same = false; 
+            //}
+
+            //return same;
         }
     }
     

@@ -14,9 +14,32 @@ namespace TwentyOne
             Face = "Two";
 
         }
-        public string Suit { get; set; }    //only two things you can do with an object property
-        public string Face { get; set; }    //the card class has a property of data type string called Suit, and Face
+        public Suit Suit { get; set; }      //only two things you can do with an object property (get and set)
+        public Face Face { get; set; }      //the card class has a property of data type string called Suit, and Face, later changed to Suit and Face since data types are now enums
                                             //and you can get this property or set this property. By making it public, it is available
                                             //to other parts of the program
+    }
+    public enum Suit                        //use of enum, don't have to put "" around set of named values
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
