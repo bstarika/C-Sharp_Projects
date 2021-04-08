@@ -26,17 +26,16 @@ namespace ParsingEnums
             try
             {
 
-                Console.WriteLine("Enter in the day of the week in the form of a number 0 - 6");
+                Console.WriteLine("Enter in the day of the week.");
                 string userInput = Console.ReadLine();
                 Days day = (Days)Enum.Parse(typeof(Days), userInput);
-                //Days day = (Days)Convert.ToInt32(userInput);
-
                 Console.WriteLine(day);
                     Console.ReadLine();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Please enter an actual day of the week.");
+                Console.ReadLine();
             }
         }
         
