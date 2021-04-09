@@ -31,6 +31,7 @@ namespace MethodsandObjects
                     joeList.Add(joe);
                 }
             }
+            List<Employee> newJoe = employees.Where(x => x.FirstName == "Joe").ToList(); //with a lambda expression, create a new list of all employees with the first name "Joe"
 
             List<Employee> newList = employees.Where(x => x.Id >= 5).ToList(); //Using a lambda expression, make a list of all employees with an Id number greater than 5
             Console.WriteLine(joeList.Count); //display how many employees with first name joe were added to joelist
