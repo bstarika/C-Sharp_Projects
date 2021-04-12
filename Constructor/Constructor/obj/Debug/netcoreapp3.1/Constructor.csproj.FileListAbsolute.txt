@@ -1,0 +1,12 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.AssemblyInfoInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.AssemblyInfo.cs
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.deps.json
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.runtimeconfig.json
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.runtimeconfig.dev.json
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.dll
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\bin\Debug\netcoreapp3.1\Constructor.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.dll
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.genruntimeconfig.cache
