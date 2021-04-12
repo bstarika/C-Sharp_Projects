@@ -14,5 +14,5 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Created entire deck of cards with constructors, loops, lists, and list functions that randomized deck.
   <li>Created an object in main program that called upon a class with methods containing both strings and integers as parameters.
   <li>Demonstrated virtual/override/overload methods, polymorphism when creating an object, making classes static/public/abstract, creating an interface and optional        parameters.
-  <li><b>Built a TwentyOne game that encompasses all of the main components and fundamentals of C#. 
+  <li><b>Built a TwentyOne game that encompasses all of the main components and fundamentals of C#. </b>
   <li>Coded using the DateTime struct system and how to log files using System.IO.
