@@ -1,0 +1,7 @@
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\bin\Debug\DateTimeLog.exe.config
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\bin\Debug\DateTimeLog.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\bin\Debug\DateTimeLog.pdb
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\obj\Debug\DateTimeLog.csprojAssemblyReference.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\obj\Debug\DateTimeLog.csproj.CoreCompileInputs.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\obj\Debug\DateTimeLog.exe
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\DateTimeLog\DateTimeLog\obj\Debug\DateTimeLog.pdb

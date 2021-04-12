@@ -13,7 +13,7 @@ namespace TwentyOne
         //    Suit = "Spades";                
         //    Face = "Two";
 
-        }
+        //}
         public Suit Suit { get; set; }      //only two things you can do with an object property (get and set)
         public Face Face { get; set; }      //the card class has a property of data type string called Suit, and Face, later changed to Suit and Face since data types are now enums
                                             //and you can get this property or set this property. By making it public, it is available

@@ -29,9 +29,9 @@ namespace TwentyOne
             [Face.King] = 10,
             [Face.Ace] = 1                                                              //player determines if ace equals 1 or 11, will be defined below
         };
-                                                                                        //create method that will check for blackjack
-                                                                                        //method will get all blackjack values and return integer array
-        private static int[] GetAllPossibleHandValues(List<Card>Hand)
+        //create method that will check for blackjack
+        //method will get all blackjack values and return integer array
+        private static int[] GetAllPossibleHandValues(List<Card> Hand)
         {
             int aceCount = Hand.Count(x => x.Face == Face.Ace);                        //LAMBDA expression 
             int[] result = new int[aceCount + 1];                                      //array passes in value of how many aces there are
@@ -44,12 +44,13 @@ namespace TwentyOne
             for (int i = 1; i < result.Length; i++)                                    //for loop will iterate through putting in different values of ace
             {
                 value += (1 * 10);                                                     //same thing as writing value = value + (1 * 10), for each ace we take its value + 1 x 10
-                result[i] = value;                                                    
+                result[i] = value;
             }
+            return result;
         }
-        
-        
-        public static bool CheckForBlackJack(List<Card>Hand)
+
+
+        public static bool CheckForBlackJack(List<Card> Hand)
         {
             int[] possibleValues = GetAllPossibleHandValues(Hand);                    //create integer array of possible values and use method above 
             int value = possibleValues.Max();                                         //check for largest value after two cards have been passed
@@ -72,7 +73,7 @@ namespace TwentyOne
                 if (value > 16 && value < 22)
                 {
                     return true;
-                }    
+                }
             }
             return false;                                                              //dealer should not stay
         }

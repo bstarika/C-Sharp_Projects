@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace TwentyOne
 {
     public class Deck
-    {                                         
+    {
         public Deck()                                                                                  //constructors always go at top of class before properties
         {
             Cards = new List<Card>();                                                                  //Cards is referring to property of class, Deck
-            for (int i = 0; i<13; i++)                                                                 //for loop
+            for (int i = 0; i < 13; i++)                                                               //for loop
             {
-                for (int j; j<4; j++)                                                                  //another for loop that will run 52 times total(13*4)
+                for (int j = 0; j < 4; j++)                                                            //another for loop that will run 52 times total(13*4)
                 {
                     Card card = new Card();                                                            //assigns card a face and suit
                     card.Face = (Face)i;                                                               //casting
@@ -61,7 +61,8 @@ namespace TwentyOne
                 }
                 Cards = TempList;
             }
-           
+
         }
     }
 }
+

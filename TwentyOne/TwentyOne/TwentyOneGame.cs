@@ -11,19 +11,31 @@ namespace TwentyOne
         public TwentyOneDealer Dealer { get; set; } //twentyonegame has it's own dealer property
         public override void Play()  //use overide keyword to "satisfy contract to define this method() from abract class" //implement Play() method
         {
-            dealer d = new TwentyOneDealer(); //instantiate that dealer object as a new TwentyOneDealer
+            Dealer = new TwentyOneDealer(); //instantiate that dealer object as a new TwentyOneDealer
             foreach (player player in Players) //Players is a property of the game class
             {
                 player.Hand = new List<Card>(); //want hand to be blank for each player a the start of a game
                 player.Stay = false; //set at false for new game
             }
-            dealer Hand = new List<Card>(); // want hand to be blank for dealer at the start of game
-            dealer Stay = false;
-            dealer Deck = new Deck(); //refresh deck every single round
-            Console.WriteLine("Place your bet"); //next step in game
+            Dealer.Hand = new List<Card>(); // want hand to be blank for dealer at the start of game
+            Dealer.Stay = false;
+            Dealer.Deck = new Deck(); //refresh deck every single round
+            Dealer.Deck.Shuffle();
             foreach (player player in Players) //loop through each player and have them place a bet
             {
-                int bet = Convert.ToInt32(Console.ReadLine()); //user places bet
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bet!"); //next step in game
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, without decimals");
+                }
+                if (bet < 0)
+                {
+                    Console.WriteLine("really");
+                    break;
+                }
                 bool successfullyBet = player.Bet(bet); //passes in user's bet into Bet() method and if they have enough it'll be true, if not false
                 if (!successfullyBet) //if false
                 {
@@ -34,7 +46,7 @@ namespace TwentyOne
             for (int i = 0; i < 2; i++) //next step is to deal, will have cards face up for simplicity with for each loop 2x
             {
                 Console.WriteLine("Dealing...");
-                foreach (player player in Player) //loop through players, deal each player
+                foreach (player player in Players) //loop through players, deal each player
                 {
                     Console.Write("{0}: ", player.Name); //use of string shorthand to write players names so we know whos getting dealt. Writing something to console without pressing enter
                     Dealer.Deal(player.Hand); //passing in players hand and is given card and printed to console to see what you're given
@@ -50,10 +62,10 @@ namespace TwentyOne
                     }
                 }
                 Console.Write("Dealer: ");
-                dealer.Deal(dealer.Hand); //dealer deals dealers hand
+                Dealer.Deal(Dealer.Hand); //dealer deals dealers hand
                 if (1 == 1) //check for blackjack
                 {
-                    bool blackJack = TwentyOneRules.CheckForBlackJack(dealer.Hand);
+                    bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
                     if (blackJack)
                     {
                         Console.WriteLine("Dealer has Blackjack! Everyone loses!");
@@ -139,7 +151,7 @@ namespace TwentyOne
                     Console.WriteLine("{0} won {1}!", player.Name, Bets[player]);
                     player.Balance += (Bets[player] * 2); //if player wins, they earn back their bets + their winnings 
                     Dealer.Balance -= Bets[player]; //subtract winnings from dealers balance
-                }    
+                }
                 else
                 {
                     Console.WriteLine("Dealer wins {0}", Bets[player]);
