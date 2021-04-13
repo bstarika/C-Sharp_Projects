@@ -33,8 +33,7 @@ namespace TwentyOne
                 }
                 if (bet < 0)
                 {
-                    Console.WriteLine("really");
-                    break;
+                    throw new FraudException("Security! Kick this person out."); //that way the user cant enter in a negative amount of money
                 }
                 bool successfullyBet = player.Bet(bet); //passes in user's bet into Bet() method and if they have enough it'll be true, if not false
                 if (!successfullyBet) //if false
