@@ -7,10 +7,16 @@ namespace Constructor
 
     public class itEmployee
     {
-        public itEmployee()
+        public itEmployee() : this(80000)
         {
-            Console.WriteLine("There is a new IT employee");
+            
         }
+
+        public itEmployee(int sal)
+        {
+            Console.WriteLine("This IT Employee's Salary is $" + sal);
+        }
+
 
     }
 }

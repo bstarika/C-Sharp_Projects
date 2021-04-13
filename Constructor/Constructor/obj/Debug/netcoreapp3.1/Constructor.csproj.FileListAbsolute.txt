@@ -10,3 +10,4 @@ C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructo
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.dll
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.pdb
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.genruntimeconfig.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\Constructor\Constructor\obj\Debug\netcoreapp3.1\Constructor.csprojAssemblyReference.cache
