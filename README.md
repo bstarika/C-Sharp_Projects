@@ -16,3 +16,5 @@ Projects completed through The Tech Academy's C# and .NET Framework Course:
   <li>Demonstrated virtual/override/overload methods, polymorphism when creating an object, making classes static/public/abstract, creating an interface and optional        parameters.
   <li><b>Built a TwentyOne game that encompasses all of the main components and fundamentals of C#. </b>
   <li>Logged data with ADO.Net / SQL Server Object Explorer in Visual Studio in the TwentyOne Game. 
+  <li>Created ASP.NET MVC Project titled CarInsurance.
+  <li>Created Console App with .NET CORE titled Scores.
