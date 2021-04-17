@@ -13,6 +13,7 @@ namespace CFinalProject
         {
             using (var db = new GradeContext())
             {
+                //create and save a new grade level for student
                 Console.WriteLine("Are you a freshman, sophomore, junior, senior?");
                 var level = (Console.ReadLine());
 
@@ -20,6 +21,8 @@ namespace CFinalProject
                 db.Grades.Add(grade);
                 db.SaveChanges();
 
+                
+                //display all grade levels in database
                 var query = from g in db.Grades
                             orderby g.gradeLevel
                             select g;
@@ -27,6 +30,8 @@ namespace CFinalProject
                 {
                     Console.WriteLine(item.gradeLevel);
                 }
+                Console.WriteLine("Press any key to exit....");
+                Console.ReadKey();
             }
         }
     }
