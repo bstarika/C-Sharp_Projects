@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -21,15 +22,19 @@ namespace CFinalProject
                 db.Grades.Add(grade);
                 db.SaveChanges();
 
+                var stud = new Student { Name = "Breanna", GPA = 3.4, Id = 22, gradeLevel = level };
+                db.Students.Add(stud);
+                db.SaveChanges();
+
                 
                 //display all grade levels in database
-                var query = from g in db.Grades
-                            orderby g.gradeLevel
-                            select g;
-                foreach (var item in query)
-                {
-                    Console.WriteLine(item.gradeLevel);
-                }
+                //var query = from g in db.Grades
+                //            orderby g.gradeLevel
+                //            select g;
+                //foreach (var item in query)
+                //{
+                //    Console.WriteLine(item.gradeLevel);
+                //}
                 Console.WriteLine("Press any key to exit....");
                 Console.ReadKey();
             }
@@ -37,7 +42,10 @@ namespace CFinalProject
     }
     public class Grade
     {
+        [Key]
         public string gradeLevel { get; set; }
+        public string Url { get; set; }
+
         public virtual List<Student> Students { get; set; }
     }
 
@@ -47,7 +55,7 @@ namespace CFinalProject
         public double GPA { get; set; }
         public int Id { get; set; }
 
-        public int gradeLevel { get; set; }
+        public string gradeLevel { get; set; }
         public virtual Grade Grade { get; set; }
     }
     public class GradeContext : DbContext

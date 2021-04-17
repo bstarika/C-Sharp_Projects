@@ -45,3 +45,5 @@ C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalPr
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalProject\obj\Debug\netcoreapp3.1\CFinalProject.dll
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalProject\obj\Debug\netcoreapp3.1\CFinalProject.pdb
 C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalProject\obj\Debug\netcoreapp3.1\CFinalProject.genruntimeconfig.cache
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalProject\obj\Debug\netcoreapp3.1\CFinalProject.Migrations.AddUrl.resources
+C:\Users\stari\OneDrive\Documents\GitHub\C-Sharp_Projects\CFinalProject\CFinalProject\obj\Debug\netcoreapp3.1\CFinalProject.csproj.GenerateResource.cache
