@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+  ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+  <h2 class="display-4">Welcome to The Tech Academy</h2>
+</div>
+
+@{
+  var todaysDate = DateTime.Now;
+  var greetingMessage = " Today is: " + todaysDate;
+}
+
+<p><center> @greetingMessage</p></center>
