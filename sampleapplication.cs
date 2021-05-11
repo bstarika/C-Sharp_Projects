@@ -5,3 +5,7 @@ class sampleapplication {
         Console.WriteLine("Hello, World!");
     }
 }
+
+int userinput = console.readline();
+int seconds = userinput / 60;
+console.readline(seconds);
